@@ -1,6 +1,6 @@
 <h1>Projekt Sakura Ramen</h1>
 
-– Konzept/Quellcode/Assets: Developer Akademie
+– Konzept/Quellcode/Assets: Developer Akademie<br>
 – Umsetzung im Rahmen der Weiterbildung: Virxhin Bytyqi
 
 **Keine öffentliche Lizenz.** 

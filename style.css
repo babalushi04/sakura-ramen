@@ -1,0 +1,554 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    background-image: url(./img/aot.jpg);
+    background-size: cover;
+    background-position: bottom, center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 250px;
+}
+
+#h1 {
+    font-family: "Raleway", sans-serif; 
+    font-size: 96px; 
+    font-weight: bold; 
+    margin: 0;
+    text-align: center;
+}
+
+#paragraph-headline{
+    font-family: "Raleway"; 
+    font-size: 24px;
+}
+
+.menuline {
+    color: white;
+    position: absolute;
+    height: 112px;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    box-sizing: border-box;   
+}
+
+#sakura-logo {
+    height: 64px;
+    width: 64px;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu-text {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-text:hover {
+    color: #9F0908;
+    cursor: pointer;
+}
+
+#tel-button {
+    display: inline-flex;
+    background-color: darkred;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    border-color: white;
+    
+}
+
+#tel-button:hover {
+    background-color: #cc3737;
+    cursor: pointer;
+}
+
+#tel-img {
+    display: flex;
+    height: 32px;
+    width: 32px;
+}
+
+#order-headline {
+    font-family: "Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 80px; 
+    color: #9F0908; 
+    margin-top: 120px; 
+    margin-bottom: 0; 
+    display: flex; 
+    justify-content: center;
+}
+
+.order-menu {
+    margin-top: 64px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.order-img {
+    height: 128px;
+    width: 128px;
+    display: flex;
+}
+
+.order-text {
+    display: flex;
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 120px;
+}
+
+.noodle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.broth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.menu-container {
+    background-image: url(img/section_our_menu_bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.headline3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+
+#menu-headline {
+    font-family: "Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 80px; 
+    color: #9F0908; 
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+.table-head {
+    font-family: "Economia", sans-serif; 
+    font-weight: bold; 
+    font-size: 56px; 
+    color: black;
+    text-align: start;
+}
+
+.table-align-left {
+    text-align: left;
+}
+
+.table-align-right {
+    text-align: right;
+}
+
+.tonkotsu {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 56px;
+    gap: 80px;
+}
+
+#tonkotsu-img {
+    height: 352px;
+    width: 352px;
+    display: flex;
+}
+
+.tonkotsu-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 32px;
+    color: #675E54;
+}
+
+.miso {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 56px;
+    gap: 80px;
+}
+
+.miso-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 32px;
+    color: #675E54;
+}
+
+#miso-img {
+    height: 352px;
+    width: 352px;
+    display: flex;
+}
+
+.shio {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+    gap: 80px;
+}
+
+#shio-img {
+    height: 352px;
+    width: 352px;
+    display: flex;
+}
+
+.shio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 32px;
+    color: #675E54;
+}
+
+.findus-head {
+    font-family:"Raleway", sans-serif; 
+    font-weight: bold; 
+    font-size: 80px; 
+    color: #9F0908; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 120px; 
+    margin-bottom: 0;
+}
+
+.adress {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-marker {
+    height: 24px;
+}
+
+.google-maps {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.footer {
+    background-color:  #0A141E;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sakura-footer {
+    height: 44px;
+    margin-left: 160px;
+}
+
+.sozial-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+#insta-logo {
+    margin-right: 160px;
+}
+
+@media(max-width:1280px) {
+    .menu-text {
+        display: none;
+    }
+
+    #sakura-logo {
+        margin-left: 24px;
+    }
+
+    #tel-button {
+        height: 50px;
+       
+    }
+
+    #h1 {
+        font-size: 72px;
+    }
+
+    #paragraph-headline{
+        font-size: 20px;
+    }
+
+    #order-headline {
+        margin-top: 96px;
+    }
+
+    .order-menu {
+        margin-top: 48px;
+    }
+
+    .order-text {
+        margin-top: 8px;
+        margin-bottom: 96px;
+    }
+
+    .menu-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .headline3 {
+        margin-top: 96px;
+        margin-bottom: 48px;
+    }
+
+    #menu-headline {
+        font-size: 64px;
+    }
+
+    .table-head {
+        font-size: 30px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    .tonkotsu {
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+
+    .miso {
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+
+    .shio {
+        gap: 24px;
+        margin-bottom: 96px;
+    }
+
+    .findus-head {
+        font-size: 64px;
+        margin-top: 96px;
+    }
+
+    .adress {
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+
+    #sakura-footer {
+        margin-left: 24px;
+    }
+
+    #insta-logo {
+        margin-right: 24px;
+    }
+}
+
+@media(max-width:767px) {
+
+    #h1 {
+        font-size: 36px;
+        white-space: nowrap;
+    }
+
+    #paragraph-headline {
+        font-size: 14px;
+    }
+
+    .menuline {
+        height: 64px;
+    }
+
+     #sakura-logo {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+    }
+
+    #tel-button {
+        height: 38px;
+        margin-right: 0;
+    }
+
+    #order-headline {
+        font-size: 37px;
+        margin-top: 72px;
+    }
+
+    .order-menu {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .noodle {
+        margin-bottom: 32px;
+    }
+
+    .broth {
+        margin-bottom: 32px;
+    }
+
+    .topping {
+        margin-bottom: 72px;
+    }
+
+    .order-img {
+        width: 112px;
+    }
+
+    .order-text {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+
+    .menu-container {
+        padding: 0;
+    }
+
+    .headline3 {
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    #menu-headline {
+        font-size: 40px;
+    }
+
+    .tonkotsu {
+        gap: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .miso {
+        gap: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .shio {
+        gap: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 72px;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    #tonkotsu-img {
+        height: 290px;
+        width: 290px;
+    }
+
+    #miso-img {
+        height: 290px;
+        width: 290px;   
+    }
+
+    #shio-img {
+        height: 290px;
+        width: 290px;
+    }
+
+    .footer {
+        height: 86px;
+    }
+
+    .findus-head {
+        margin-top: 72px;
+        font-size: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .adress {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    #map-marker {
+        height: 16px;
+    }
+
+    #sakura-footer {
+        content: url(./img/sakura.blume.jpg);
+        height: 40px;
+        margin-left: 16px;
+    }
+
+    .sozial-img {
+        height: 32px;
+        width: 32px;
+    }
+
+    #insta-logo {
+        margin-right: 16px;
+    }
+}
